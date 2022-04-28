@@ -487,6 +487,11 @@ header nav .form i {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   row-gap: 2px;
 }
+@media (max-width: 500px) {
+  .portfoilo .imgs-container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
 .portfoilo .imgs-container .box {
   position: relative;
   overflow: hidden;
