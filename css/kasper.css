@@ -673,18 +673,15 @@ video {
   }
 }
 .stats .box i {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 63px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
-  border-radius: 50px;
-  /* margin: 0 auto 30px; */
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
+  clip-path: polygon(0 42%, 50% 0%, 100% 42%, 80% 95%, 20% 95%);
+  cursor: pointer;
+  font-size: 22px;
 }
 .stats .box .number {
   font-size: 50px;
